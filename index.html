@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto de Estética</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <button class="nav-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenidos al Instituto de Estética</h1>
+            <p>Ofrecemos servicios profesionales para tu bienestar y belleza.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Tratamientos faciales</li>
+                <li>Masajes relajantes</li>
+                <li>Depilación profesional</li>
+                <!-- Agreguen más -->
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Nombre" required>
+                <input type="email" id="email" placeholder="Correo electrónico" required>
+                <input type="text" id="phone" placeholder="Teléfono (opcional)">
+                <textarea id="message" placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Instituto de Estética</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
